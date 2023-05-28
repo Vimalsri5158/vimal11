@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(125deg,  rgba(0, 0, 255, 0.571),rgba(255, 255, 0, 0.719),rgba(10, 233, 10, 0.615))
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: darkviolet;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 12px;
+    padding: 50px;
+    display:block;
+}
+
+h4{
+    text-align: center;
+    opacity: 0.5;
+}
+
+h2{
+    text-align: center;
+}
+
+#v1{
+    font-size: 15px;
+}
+
+.col-md-4{
+    padding-left: 105px;
+    margin-top: 50px;
+    position: relative;
+    }
+    
+.cord-body{
+    padding-right: 25px;
+    margin-top: 0px;
+    display: block;
+    position: relative;
+}
+.card{
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 80px;
+    border-radius: 15px;
+    background-color: rgb(7, 198, 236);
+    padding-bottom: 50px;
+    position: absolute;
+    
+    }
+.card:hover{
+    box-shadow: 0px 0px 15px 5px;
+}
+
+a{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: .10rem;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(12, 63, 230);
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: antiquewhite;
+    }
+@media (min-width: 702px) {
+.card:hover {
+      margin-top: .5rem;
+    }
+}
+
